@@ -1,0 +1,34 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+
+  "rules": {
+    "import/no-unresolved": [2, {
+      "ignore": [".png$", ".webp$", ".jpg$"]
+    }],
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
+    "react/prefer-stateless-function": 0,
+    "linebreak-style": 0,
+    "react/no-unescaped-entities": 0,
+    "object-curly-newline": "off",
+    "arrow-parens": 0,
+    "react/destructuring-assignment": "off",
+    "react/prop-types": "off",
+    "no-underscore-dangle": "off",
+    "implicit-arrow-linebreak": "off",
+    "function-paren-newline": "off",
+    "operator-linebreak": "off",
+    "react/sort-comp": "off",
+    "class-methods-use-this": "off",
+    "lines-between-class-members": "off",
+    "max-len": "off"
+  }
+}
