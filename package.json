@@ -16,7 +16,7 @@
     "@rematch/loading": "^1.2.1",
     "axios": "^0.19.0",
     "react": "16.9.0",
-    "react-native": "0.61.5",
+    "react-native": "0.62.3",
     "react-native-gesture-handler": "^1.5.1",
     "react-native-orientation-locker": "^1.1.7",
     "react-navigation": "^4.0.10",
